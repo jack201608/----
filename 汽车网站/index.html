@@ -1,0 +1,2727 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type"content="text/html; charset=utf-8"/>
+	<link type="text/css" rel="stylesheet" href="style/reset.css" >
+	<link rel="stylesheet" type="text/css" href="style/main.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+	<script type="text/javascript" src="layer/layer.js"></script>
+	<script type="text/javascript" src="js/demo.js"></script>
+	<title>首页</title>
+</head>
+<body>
+	<div id="wrap">
+		<div id="header">
+			<div class="topbar">
+				<div class="comWidth2">
+					<ul class="leftArea">
+						<li>
+							<a href="#">汽车网</a>
+						</li>
+						<li>
+							<span class="sep">|</span>
+						</li>
+						<li>
+							<a href="#">car</a>
+						</li>
+						<li>
+							<span class="sep">|</span>
+						</li>
+						<li>
+							<a href="#">汽聊</a>
+						</li>
+						<li>
+							<span class="sep">|</span>
+						</li>
+						<li>
+							<a href="#">活动</a>
+						</li>
+						<li>
+							<span class="sep">|</span>
+						</li>
+						<li>
+							<a href="#">汽车资讯</a>
+						</li>
+						<li>
+							<span class="sep">|</span>
+						</li>
+						<li>
+							<a href="#">云服务</a>
+						</li>
+						<li>
+							<span class="sep">|</span>
+						</li>
+						<li>
+							<a href="#">汽车网移动版</a>
+						</li>
+						<li>
+							<span class="sep">|</span>
+						</li>
+						<li>
+							<a href="#">问题反馈</a>
+						</li>
+						<li>
+							<span class="sep">|</span>
+						</li>
+						<li>
+							<a href="#">Select Region</a>
+						</li>
+					</ul>
+					<div class="rightArea">
+						<div class="login fl">
+							<a href="#" onclick="ShowLoginBox()">登陆</a>
+							<span class="sep">|</span>
+							<a href="#" onclick="ShowregistBox()">注册</a>
+						</div>
+						<!-- 弹出登录窗口 -->
+						<div id="dloginbox">
+       					 <div class="loginitem"><input type="text"  id="txtUserName" placeholder="请输入用户名"/></div>
+       					 <div class="loginitem"><input type="password" id="txtPwd" placeholder="请输入密码" /></div>
+       					 <div class="loginitem"><a href="javascript:;" onclick="Login()">登录</a></div>
+    					</div>
+    					<!-- 弹出注册窗口 -->
+    					<div id="regist">
+						    <div id="dreg">
+						        <div class="regitem">
+						            <div class="regtitle">手机号：</div>
+						            <div class="regtext"><input type="text" id="txtPhone" placeholder="请输入手机号" /></div>
+						        </div>
+						        <div class="regitem">
+						            <div class="regtitle">QQ：</div>
+						            <div class="regtext"><input type="text" id="txtQQ" placeholder="请输入QQ" /></div>
+						        </div>
+						        <div class="regitem">
+						            <div class="regtitle">Email：</div>
+						            <div class="regtext"><input type="text" id="txtEmail" placeholder="请输入邮箱" /></div>
+						        </div>
+						        <div class="regitem">
+						            <div class="regtitle">邮编：</div>
+						            <div class="regtext"><input type="text" id="txtCode" placeholder="请输入邮编" /></div>
+						        </div>
+						        <div class="regitem">
+						            <div class="regtitle">身份证：</div>
+						            <div class="regtext"><input type="text" id="txtPersonCode" placeholder="请输入身份证号" /></div>
+						        </div>
+						        <div class="regitem">
+						            <div class="dregbtn"><a href="javascript:;">注册</a></div>
+						            <div class="dreset"><a href="javascript:;">重置</a></div>
+						        </div>
+						    </div>
+   						</div>
+						<div class="buy_car fl">
+							<img src="images/shopcar.png" class="buy_car_img fr"/>
+							<div class="buy_car_spec">
+								<p></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="navMenu nav_menu_show1">
+			<div class="nav_menu_list">
+				<ul class="nav_menu_spec">
+					<li>
+						<a href="#" class="nav_menu_list_img">
+							<img src="images/nav_menu1_1.jpg" />
+						</a>
+						<p>
+							<a href="#" class="nav_menu_list_title">奔驰</a>
+						</p>
+						<p>
+							<a href="#" class="nav_menu_list_price">129万起</a>
+						</p>
+					</li>
+					<li>
+						<a href="#" class="nav_menu_list_img">
+							<img src="images/nav_menu1_2.jpg" />
+						</a>
+						<p>
+							<a href="#" class="nav_menu_list_title">宝马手机4</a>
+						</p>
+						<p>
+							<a href="#" class="nav_menu_list_price">29万起</a>
+						</p>
+					</li>
+					<li>
+						<a href="#" class="nav_menu_list_img">
+							<img src="images/nav_menu1_3.jpg" />
+						</a>
+						<p>
+							<a href="#" class="nav_menu_list_title">雷克萨斯 标准版</a>
+						</p>
+						<p>
+							<a href="#" class="nav_menu_list_price">17万起</a>
+						</p>
+					</li>
+					<li>
+						<a href="#" class="bdr_0 nav_menu_list_img ">
+							<img src="images/nav_menu1_4.jpg" />
+						</a>
+						<p>
+							<a href="#" class="nav_menu_list_title">劳斯莱斯 顶配版</a>
+						</p>
+						<p>
+							<a href="#" class="nav_menu_list_price">999万起</a>
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="navMenu nav_menu_show2">
+			<div class="nav_menu_list">
+				<ul class="nav_menu_spec">
+					<li>
+						<a href="#" class="nav_menu_list_img">
+							<img src="images/nav_menu2_1.jpg" />
+						</a>
+						<p>
+							<a href="#" class="nav_menu_list_title">奔驰</a>
+						</p>
+						<p>
+							<a href="#" class="nav_menu_list_price">299万起</a>
+						</p>
+					</li>
+					<li>
+						<a href="#" class="nav_menu_list_img">
+							<img src="images/nav_menu2_2.jpg" />
+						</a>
+						<p>
+							<a href="#" class="nav_menu_list_title">宝马</a>
+						</p>
+						<p>
+							<a href="#" class="nav_menu_list_price">29万起</a>
+						</p>
+					</li>
+					<li>
+						<a href="#" class="nav_menu_list_img">
+							<img src="images/nav_menu2_3.jpg" />
+						</a>
+						<p>
+							<a href="#" class="nav_menu_list_title">奔驰</a>
+						</p>
+						<p>
+							<a href="#" class="nav_menu_list_price">99万起</a>
+						</p>
+					</li>
+					<li>
+						<a href="#" class="bdr_0 nav_menu_list_img ">
+							<img src="images/nav_menu2_4.jpg" />
+						</a>
+						<p>
+							<a href="#" class="nav_menu_list_title">奔驰</a>
+						</p>
+						<p>
+							<a href="#" class="nav_menu_list_price">99万起</a>
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="navMenu nav_menu_show3">
+			<div class="nav_menu_list">
+				<ul class="nav_menu_spec">
+					<li>
+						<a href="#" class="nav_menu_list_img">
+							<img src="images/nav_menu3_1.jpg" />
+						</a>
+						<p>
+							<a href="#" class="nav_menu_list_title">宝马</a>
+						</p>
+						<p>
+							<a href="#" class="nav_menu_list_price">99万起</a>
+						</p>
+					</li>
+					<li>
+						<a href="#" class="nav_menu_list_img">
+							<img src="images/nav_menu3_2.jpg" />
+						</a>
+						<p>
+							<a href="#" class="nav_menu_list_title">宝马</a>
+						</p>
+						<p>
+							<a href="#" class="nav_menu_list_price">29万起</a>
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="navMenu nav_menu_show4">
+			<div class="nav_menu_list">
+				<ul class="nav_menu_spec">
+					<li>
+						<a href="#" class="nav_menu_list_img">
+							<img src="images/nav_menu4_1.jpg" />
+						</a>
+						<p>
+							<a href="#" class="nav_menu_list_title">一汽大众</a>
+						</p>
+						<p>
+							<a href="#" class="nav_menu_list_price">12万起</a>
+						</p>
+					</li>
+					<li>
+						<a href="#" class="nav_menu_list_img">
+							<img src="images/nav_menu4_2.jpg" />
+						</a>
+						<p>
+							<a href="#" class="nav_menu_list_title">奔驰</a>
+						</p>
+						<p>
+							<a href="#" class="nav_menu_list_price">299万起</a>
+						</p>
+					</li>
+					<li>
+						<a href="#" class="nav_menu_list_img">
+							<img src="images/nav_menu4_3.jpg" />
+						</a>
+						<p>
+							<a href="#" class="nav_menu_list_title">宝马</a>
+						</p>
+						<p>
+							<a href="#" class="nav_menu_list_price">99万起</a>
+						</p>
+					</li>
+					<li>
+						<a href="#" class="bdr_0 nav_menu_list_img ">
+							<img src="images/nav_menu4_4.jpg" />
+						</a>
+						<p>
+							<a href="#" class="nav_menu_list_title">奔驰</a>
+						</p>
+						<p>
+							<a href="#" class="nav_menu_list_price">99万起</a>
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="navMenu nav_menu_show5">
+			<div class="nav_menu_list">
+				<ul class="nav_menu_spec">
+					<li>
+						<a href="#" class="nav_menu_list_img">
+							<img src="images/nav_menu5_1.jpg" />
+						</a>
+						<p>
+							<a href="#" class="nav_menu_list_title">宝马</a>
+						</p>
+						<p>
+							<a href="#" class="nav_menu_list_price">99万起</a>
+						</p>
+					</li>
+					<li>
+						<a href="#" class="nav_menu_list_img">
+							<img src="images/nav_menu5_2.jpg" />
+						</a>
+						<p>
+							<a href="#" class="nav_menu_list_title">奔驰</a>
+						</p>
+						<p>
+							<a href="#" class="nav_menu_list_price">29万起</a>
+						</p>
+					</li>
+					<li>
+						<a href="#" class="nav_menu_list_img">
+							<img src="images/nav_menu5_3.jpg" />
+						</a>
+						<p>
+							<a href="#" class="nav_menu_list_title">一汽大众</a>
+						</p>
+						<p>
+							<a href="#" class="nav_menu_list_price">19万起</a>
+						</p>
+					</li>
+					<li>
+						<a href="#" class="bdr_0 nav_menu_list_img ">
+							<img src="images/nav_menu5_4.jpg" />
+						</a>
+						<p>
+							<a href="#" class="nav_menu_list_title">奔驰</a>
+						</p>
+						<p>
+							<a href="#" class="nav_menu_list_price">99万起</a>
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="navMenu nav_menu_show6">
+			<div class="nav_menu_list">
+				<ul class="nav_menu_spec">
+					<li>
+						<a href="#" class="nav_menu_list_img">
+							<img src="images/nav_menu6_1.jpg" />
+						</a>
+						<p>
+							<a href="#" class="nav_menu_list_title">宝马</a>
+						</p>
+						<p>
+							<a href="#" class="nav_menu_list_price">99万起</a>
+						</p>
+					</li>
+					<li>
+						<a href="#" class="nav_menu_list_img">
+							<img src="images/nav_menu6_2.jpg" />
+						</a>
+						<p>
+							<a href="#" class="nav_menu_list_title">奔腾</a>
+						</p>
+						<p>
+							<a href="#" class="nav_menu_list_price">12万起</a>
+						</p>
+					</li>
+					<li>
+						<a href="#" class="nav_menu_list_img">
+							<img src="images/nav_menu6_3.jpg" />
+						</a>
+						<p>
+							<a href="#" class="nav_menu_list_title">奔驰</a>
+						</p>
+						<p>
+							<a href="#" class="nav_menu_list_price">99万起</a>
+						</p>
+					</li>
+					<li>
+						<a href="#" class="nav_menu_list_img">
+							<img src="images/nav_menu6_4.jpg" />
+						</a>
+						<p>
+							<a href="#" class="nav_menu_list_title">劳斯莱斯</a>
+						</p>
+						<p>
+							<a href="#" class="nav_menu_list_price">299万起</a>
+						</p>
+					</li>
+					<li>
+						<a href="#" class="nav_menu_list_img">
+							<img src="images/nav_menu6_5.jpg" />
+						</a>
+						<p>
+							<a href="#" class="nav_menu_list_title">奔驰</a>
+						</p>
+						<p>
+							<a href="#" class="nav_menu_list_price">99万起</a>
+						</p>
+					</li>
+					<li>
+						<a href="#" class="bdr_0 nav_menu_list_img ">
+							<img src="images/nav_menu6_6.jpg" />
+						</a>
+						<p>
+							<a href="#" class="nav_menu_list_title">一汽大众</a>
+						</p>
+						<p>
+							<a href="#" class="nav_menu_list_price">12万起</a>
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="wrap_inner_top">
+			<div class="container comWidth clearfix">
+				<div class="nav clearfix">
+					<div class="logo fl"></div>
+					<ul class="nav_list clearfix fl">
+						<li>
+							<a href="#">奔驰</a>
+						</li>
+						<li>
+							<a href="#">宝马</a>
+						</li>
+						<li>
+							<a href="#">劳斯莱斯</a>
+						</li>
+						<li>
+							<a href="#">配件 · 轮子</a>
+						</li>
+						<li>
+							<a href="#">劳斯莱斯</a>
+						</li>
+						<li>
+							<a href="#">一汽</a>
+						</li>
+						<li>
+							<a href="#">奔驰</a>
+						</li>
+						<li>
+							<a href="#">宝马</a>
+						</li>
+					</ul>
+
+					<div class="search fl">
+						<div class="search_box">
+							<form>
+								<input type="text" class="search_txt fl" />
+								<input type="submit" class="search_btn fl" value="" />
+								<div class="hot_word1">
+									<a href="#">宝马</a>
+								</div>
+								<div class="hot_word2">
+									<a href="#">奔驰</a>
+								</div>
+							</form>
+						</div>
+						<ul class="search_extra">
+							<li>
+								<a href="#">
+									<span class="spec_name">兰博基尼</span>
+									<span class="result">约有22辆</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="spec_name">法拉利</span>
+									<span class="result">约有2辆</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="spec_name">福特</span>
+									<span class="result">约有5辆</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="spec_name">路虎</span>
+									<span class="result">约有7辆</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="spec_name">悍马</span>
+									<span class="result">约有1辆</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="spec_name">劳斯莱斯</span>
+									<span class="result">约有134辆</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="spec_name">凯迪拉克</span>
+									<span class="result">约有6辆</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="spec_name">奥迪</span>
+									<span class="result">约有22辆</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="spec_name">兰博基尼</span>
+									<span class="result">约有4辆</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="spec_name">奔驰</span>
+									<span class="result">约有11辆</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+
+				<div class="category clearfix">
+
+					<ul class="category_list">
+						<li class="category_item">
+							<a href="" class="category_item_icon">法拉利 宝马 保时捷</a>
+							<div class="category_item_box clearfix">
+								<ul class="category_item_list fl">
+
+									<li class="category_item_spec clearfix">
+										<a href="#" class="category_item_spec_detail fl clearfix">
+											<img src="images/category/note.jpg" />
+											<span class="category_item_title">大众</span>
+										</a>
+										<span href="#" class="category_item_btn fl">选够</span>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/mi4.jpg" />
+											<span class="category_item_title">宝马</span>
+										</a>
+										<span href="#" class="category_item_btn fl">选够</span>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/mi4c.jpg" />
+											<span class="category_item_title">路虎</span>
+										</a>
+										<span href="#" class="category_item_btn fl">选够</span>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/note2.jpg" />
+											<span class="category_item_title">奥迪</span>
+										</a>
+										<span href="#" class="category_item_btn fl">选够</span>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/note.jpg" />
+											<span class="category_item_title">兰博基尼</span>
+										</a>
+										<span href="#" class="category_item_btn fl">选够</span>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/hongmi2.jpg" />
+											<span class="category_item_title">凯迪拉克</span>
+										</a>
+										<span href="#" class="category_item_btn fl">选够</span>
+									</li>
+								</ul>
+								<ul class="category_item_list fl">
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/hongmi2a.jpg" />
+											<span class="category_item_title">法拉利</span>
+										</a>
+										<span href="#" class="category_item_btn fl">选够</span>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/mipad.jpg" />
+											<span class="category_item_title">大众</span>
+										</a>
+										<span href="#" class="category_item_btn fl">选够</span>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/telcom.jpg" />
+											<span class="category_item_title">宝马</span>
+										</a>
+										<span href="#" class="category_item_btn fl">选够</span>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/heyue.jpg" />
+											<span class="category_item_title">奔驰</span>
+										</a>
+										<span href="#" class="category_item_btn fl">选够</span>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/zhongxin.jpg" />
+											<span class="category_item_title">悍马</span>
+										</a>
+										<span href="#" class="category_item_btn fl">选够</span>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/compare.jpg" />
+											<span class="category_item_title">保时捷</span>
+										</a>
+										<span href="#" class="category_item_btn fl">选够</span>
+									</li>
+								</ul>
+								<ul class="category_item_list fl active">
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/mimobile.jpg" />
+											<span class="category_item_title">劳斯莱斯</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+
+						<li class="category_item">
+							<a href="" class="category_item_icon">奔驰 福特</a>
+							<div class="category_item_box">
+								<ul class="category_item_list fl">
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv40.jpg" />
+											<span class="category_item_title">奔驰 高配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv48.jpg" />
+											<span class="category_item_title">奥迪 中配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv49.jpg" />
+											<span class="category_item_title">保时捷 高配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv3-55.jpg" />
+											<span class="category_item_title">奔驰 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv60.jpg" />
+											<span class="category_item_title">宝马 中配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/hezis.jpg" />
+											<span class="category_item_title">奔驰</span>
+										</a>
+									</li>
+								</ul>
+								<ul class="category_item_list fl">
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/hezimini.jpg" />
+											<span class="category_item_title">凯迪拉克</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tvzj.jpg" />
+											<span class="category_item_title">丰田</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/diyinpao.jpg" />
+											<span class="category_item_title">玛莎拉蒂</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/shb.jpg" />
+											<span class="category_item_title">英菲尼迪</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/dianshipeijian.jpg" />
+											<span class="category_item_title">比亚迪</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="category_item">
+							<a href="" class="category_item_icon">NISSAN 别克</a>
+							<div class="category_item_box">
+								<ul class="category_item_list fl">
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv40.jpg" />
+											<span class="category_item_title">马自达 中配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv48.jpg" />
+											<span class="category_item_title">比亚迪 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv49.jpg" />
+											<span class="category_item_title">中国一汽 中配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv3-55.jpg" />
+											<span class="category_item_title">别克 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv60.jpg" />
+											<span class="category_item_title">宾利 顶配</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/hezis.jpg" />
+											<span class="category_item_title">沃尔沃</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="category_item">
+							<a href="" class="category_item_icon">雷克萨斯 马自达</a>
+							<div class="category_item_box">
+								<ul class="category_item_list fl">
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv40.jpg" />
+											<span class="category_item_title">本田 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv48.jpg" />
+											<span class="category_item_title">丰田 中配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv49.jpg" />
+											<span class="category_item_title">比亚迪 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv3-55.jpg" />
+											<span class="category_item_title">玛莎拉蒂 中配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv60.jpg" />
+											<span class="category_item_title">马自达 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/hezis.jpg" />
+											<span class="category_item_title">雷克萨斯</span>
+										</a>
+									</li>
+								</ul>
+								<ul class="category_item_list fl">
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/hezimini.jpg" />
+											<span class="category_item_title">科尼塞克</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tvzj.jpg" />
+											<span class="category_item_title">雪铁龙</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/diyinpao.jpg" />
+											<span class="category_item_title">奇瑞</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/shb.jpg" />
+											<span class="category_item_title">阿斯顿马丁</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/dianshipeijian.jpg" />
+											<span class="category_item_title">讴歌</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="category_item">
+							<a href="" class="category_item_icon">长城 林肯</a>
+							<div class="category_item_box">
+								<ul class="category_item_list fl">
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv40.jpg" />
+											<span class="category_item_title">斯巴鲁 中配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv48.jpg" />
+											<span class="category_item_title">帝豪 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv49.jpg" />
+											<span class="category_item_title">阿斯顿马丁 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv3-55.jpg" />
+											<span class="category_item_title">讴歌 中配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv60.jpg" />
+											<span class="category_item_title">奇瑞 中配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/hezis.jpg" />
+											<span class="category_item_title">斯巴鲁</span>
+										</a>
+									</li>
+								</ul>
+								<ul class="category_item_list fl">
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv40.jpg" />
+											<span class="category_item_title">林肯 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv48.jpg" />
+											<span class="category_item_title">迈巴赫 中配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv49.jpg" />
+											<span class="category_item_title">欧宝 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv3-55.jpg" />
+											<span class="category_item_title">众泰 中配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv60.jpg" />
+											<span class="category_item_title">帕加尼 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/hezis.jpg" />
+											<span class="category_item_title">吉利</span>
+										</a>
+									</li>
+								</ul>
+								<ul class="category_item_list fl">
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/hezimini.jpg" />
+											<span class="category_item_title">英伦</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tvzj.jpg" />
+											<span class="category_item_title">克莱斯勒</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/diyinpao.jpg" />
+											<span class="category_item_title">雪佛兰</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/shb.jpg" />
+											<span class="category_item_title">标致</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/dianshipeijian.jpg" />
+											<span class="category_item_title">东风</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="category_item">
+							<a href="" class="category_item_icon">电池 帕加尼</a>
+							<div class="category_item_box">
+								<ul class="category_item_list fl">
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv40.jpg" />
+											<span class="category_item_title">吉利 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv48.jpg" />
+											<span class="category_item_title">Jeep 高配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv49.jpg" />
+											<span class="category_item_title">奔腾 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv3-55.jpg" />
+											<span class="category_item_title">道奇 中配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv60.jpg" />
+											<span class="category_item_title">全球鹰 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/hezis.jpg" />
+											<span class="category_item_title">泰卡特</span>
+										</a>
+									</li>
+								</ul>
+								<ul class="category_item_list fl">
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv40.jpg" />
+											<span class="category_item_title">阿尔宾娜 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv48.jpg" />
+											<span class="category_item_title">特斯拉 中配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv49.jpg" />
+											<span class="category_item_title">西尔贝 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv3-55.jpg" />
+											<span class="category_item_title">特拉贝特 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+								</ul>
+							</div>
+						</li>
+						<li class="category_item">
+							<a href="" class="category_item_icon">泰卡特 道奇</a>
+							<div class="category_item_box">
+								<ul class="category_item_list fl">
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv40.jpg" />
+											<span class="category_item_title">菲亚特 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv48.jpg" />
+											<span class="category_item_title">泰卡特 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv49.jpg" />
+											<span class="category_item_title">特斯拉 中配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv3-55.jpg" />
+											<span class="category_item_title">华普 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv60.jpg" />
+											<span class="category_item_title">铃木 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/hezis.jpg" />
+											<span class="category_item_title">菲亚特</span>
+										</a>
+									</li>
+								</ul>
+								<ul class="category_item_list fl">
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv40.jpg" />
+											<span class="category_item_title">卡尔森 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv48.jpg" />
+											<span class="category_item_title">巴博斯 高配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv49.jpg" />
+											<span class="category_item_title">西亚特 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv3-55.jpg" />
+											<span class="category_item_title">荣威 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+								</ul>
+							</div>
+						</li>
+						<li class="category_item">
+							<a href="" class="category_item_icon">雷诺 斯柯达</a>
+							<div class="category_item_box">
+								<ul class="category_item_list fl">
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv40.jpg" />
+											<span class="category_item_title">莲花 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv48.jpg" />
+											<span class="category_item_title">名爵 中配</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv49.jpg" />
+											<span class="category_item_title">现代 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv3-55.jpg" />
+											<span class="category_item_title">斯柯达 中配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv60.jpg" />
+											<span class="category_item_title">鲁夫 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/hezis.jpg" />
+											<span class="category_item_title">威兹曼</span>
+										</a>
+									</li>
+								</ul>
+								<ul class="category_item_list fl">
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv40.jpg" />
+											<span class="category_item_title">威兹曼 中配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv48.jpg" />
+											<span class="category_item_title">鲁夫 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv49.jpg" />
+											<span class="category_item_title">斯柯达 中配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv3-55.jpg" />
+											<span class="category_item_title">斯柯达 中配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv60.jpg" />
+											<span class="category_item_title">斯柯达 中配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/hezis.jpg" />
+											<span class="category_item_title">斯柯达</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="category_item">
+							<a href="" class="category_item_icon">鲁夫 名爵</a>
+							<div class="category_item_box">
+								<ul class="category_item_list fl">
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv40.jpg" />
+											<span class="category_item_title">名爵 中配</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv48.jpg" />
+											<span class="category_item_title">荣威 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv49.jpg" />
+											<span class="category_item_title">斯柯达 中配版</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="category_item">
+							<a href="" class="category_item_icon">箱包 其他周边</a>
+							<div class="category_item_box">
+								<ul class="category_item_list fl">
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv40.jpg" />
+											<span class="category_item_title">莲花 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv48.jpg" />
+											<span class="category_item_title">名爵 中配</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv49.jpg" />
+											<span class="category_item_title">荣威 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv3-55.jpg" />
+											<span class="category_item_title">斯柯达 中配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv60.jpg" />
+											<span class="category_item_title">莲花 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/hezis.jpg" />
+											<span class="category_item_title">名爵</span>
+										</a>
+									</li>
+								</ul>
+								<ul class="category_item_list fl">
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv40.jpg" />
+											<span class="category_item_title">名爵 中配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv48.jpg" />
+											<span class="category_item_title">荣威 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv49.jpg" />
+											<span class="category_item_title">斯柯达 中配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv3-55.jpg" />
+											<span class="category_item_title">莲花 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv60.jpg" />
+											<span class="category_item_title">名爵 中配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/hezis.jpg" />
+											<span class="category_item_title">斯柯达</span>
+										</a>
+									</li>
+								</ul>
+								<ul class="category_item_list fl">
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv40.jpg" />
+											<span class="category_item_title">名爵 中配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv48.jpg" />
+											<span class="category_item_title">荣威 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv49.jpg" />
+											<span class="category_item_title">斯柯达 中配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv3-55.jpg" />
+											<span class="category_item_title">莲花 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/tv60.jpg" />
+											<span class="category_item_title">莲花 低配版</span>
+										</a>
+									</li>
+									<div class="clearfix"></div>
+									<li class="category_item_spec">
+										<a href="#" class="category_item_spec_detail fl">
+											<img src="images/category/hezis.jpg" />
+											<span class="category_item_title">荣威</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+					<ul class="category_hot_list">
+						<li>
+							<a href="#" >
+								<img class="ig" src="images/hot1.jpg" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img class="ig" src="images/hot2.jpg" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img class="ig" src="images/hot3.jpg" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img class="ig" src="images/hot4.jpg" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img class="ig" src="images/hot5.jpg" />
+							</a>
+						</li>
+					</ul>
+					<ul class="category_move">
+						<li>
+							<span class="btn1 cur_move"></span>
+						</li>
+						<li>
+							<span class="btn1"></span>
+						</li>
+						<li>
+							<span class="btn1"></span>
+						</li>
+						<li>
+							<span class="btn1"></span>
+						</li>
+						<li>
+							<span class="btn1"></span>
+						</li>
+					</ul>
+				</div>
+				<div class="channel comWidth clearfix">
+					<ul class="channel_list fl">
+						<li>
+							<a href="" class="channel1">上海汽车</a>
+						</li>
+						<li>
+							<a href="" class="channel2">企业团购</a>
+						</li>
+						<li>
+							<a href="" class="channel3">官翻产品</a>
+						</li>
+						<li>
+							<a href="" class="channel4">斯堪尼亚</a>
+						</li>
+						<li>
+							<a href="" class="channel5">余额充值</a>
+						</li>
+						<li>
+							<a href="" class="channel6">猎豹</a>
+						</li>
+					</ul>
+					<div class=" fl">
+						<img src="images/hot6.jpg" class="hot_img">
+						<img src="images/hot7.jpg" class="hot_img">
+						<img src="images/hot8.jpg" class="hot_img"></div>
+					</div>
+				<div class="star_spec comWidth clearfix ">
+					<div class="spec_top">
+						<h2 class="spec_type_title fl">宾尼法利纳</h2>
+						<div class="spec_left_right fl">
+							<a class="left_img fl" >
+								<img src="images/icon/left2.png" />
+							</a>
+							<a class="right_img fl">
+								<img src="images/icon/right1.png" />
+							</a>
+						</div>
+					</div>
+					<ul class="spec_item_list">
+						<li class="spec_item spec_top_border1" >
+							<a class="spec_img" >
+								<img src="images/star1.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >宝腾</a>
+							</h3>
+							<p class="spec_desc">宾尼法利纳</p>
+							<p class="spec_money">99万起</p>
+						</li>
+						<li class="spec_item spec_top_border2">
+							<a class="spec_img" >
+								<img src="images/star2.png" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >纳智捷</a>
+							</h3>
+							<p class="spec_desc">汽车配置高</p>
+							<p class="spec_money">39万元</p>
+						</li>
+						<li class="spec_item spec_top_border3">
+							<a class="spec_img" >
+								<img src="images/T1l6WgB_ZT1RXrhCrK.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >帕诺兹</a>
+							</h3>
+							<p class="spec_desc">10亿美金内容新增83%</p>
+							<p class="spec_money">19万元</p>
+						</li>
+						<li class="spec_item spec_top_border4">
+							<a class="spec_img" >
+								<img src="images/star4.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#">莫斯勒</a>
+							</h3>
+							<p class="spec_desc">科技与时尚的理想结合</p>
+							<p class="spec_money">17万起</p>
+						</li>
+						<li class="spec_item spec_top_border5">
+							<a class="spec_img" >
+								<img src="images/star5.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#">北京汽车</a>
+							</h3>
+							<p class="spec_desc">主流双频</p>
+							<p class="spec_money">12万元</p>
+						</li>
+						<li class="spec_item spec_top_border5">
+							<a class="spec_img" >
+								<img src="images/star6.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#">迪亚托</a>
+							</h3>
+							<p class="spec_desc">2015德国高品质</p>
+							<p class="spec_money">7万元</p>
+						</li>
+						<li class="spec_item spec_top_border5">
+							<a class="spec_img" >
+								<img src="images/star7.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#">达西亚</a>
+							</h3>
+							<p class="spec_desc">配置超高</p>
+							<p class="spec_money">12万元</p>
+						</li>
+						<li class="spec_item spec_top_border5">
+							<a class="spec_img" >
+								<img src="images/star8.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#">比扎瑞尼</a>
+							</h3>
+							<p class="spec_desc">美国ADI传感器，30天超长续航</p>
+							<p class="spec_money">6万元</p>
+						</li>
+						<li class="spec_item spec_top_border5">
+							<a class="spec_img" >
+								<img src="images/star9.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#">阿斯卡利</a>
+							</h3>
+							<p class="spec_desc">能看能听能说，远程观看</p>
+							<p class="spec_money">9万元起</p>
+						</li>
+						<li class="spec_item spec_top_border5">
+							<a class="spec_img" >
+								<img src="images/star10.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#">雷诺三星</a>
+							</h3>
+							<p class="spec_desc">高密度进口电芯，仅名片大小</p>
+							<p class="spec_money">69万起</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="wrap_inner_bottom">
+			<div class="container comWidth2">
+				<div class="hardware clearfix">
+					<div class="spec_top">
+						<h2 class="spec_type_title fl">智能硬件</h2>
+						<a class="view_all fr ">
+							<img src="images/icon/view_all1.png" />
+						</a>
+					</div>
+					<div class="hareware_main fl box_shadow">
+						<img src="images/hardware0.jpg"></div>
+					<ul class="hardware_list fl">
+						<li class="spec_item box_shadow" >
+							<a class="spec_img " >
+								<img src="images/hardware1.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >沃克斯豪尔</a>
+							</h3>
+							<p class="spec_desc">文图瑞</p>
+							<p class="spec_money">3万元</p>
+						</li>
+						<li class="spec_item box_shadow" >
+							<a class="spec_img" >
+								<img src="images/hardware2.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >文图瑞</a>
+							</h3>
+							<p class="spec_desc">双风机 净化能力高达 406m³/h</p>
+							<p class="spec_money">8万元</p>
+						</li>
+						<li class="spec_item box_shadow" >
+							<a class="spec_img" >
+								<img src="images/hardware3.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >庞蒂亚克</a>
+							</h3>
+							<p class="spec_desc">小巧轻便 | 配对高级 | 随身护航</p>
+							<p class="spec_money">9万元</p>
+						</li>
+						<li class="spec_item box_shadow" >
+							<a class="spec_img" >
+								<img src="images/hardware4.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >依维柯 青春版</a>
+							</h3>
+							<p class="spec_desc">将高性能 凝聚于掌心大小</p>
+							<p class="spec_money">7万元</p>
+						</li>
+						<li class="spec_item box_shadow" >
+							<a class="spec_img" >
+								<img src="images/hardware5.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >庞蒂亚克</a>
+							</h3>
+							<p class="spec_desc">高精度压力传感器 ｜ 管理全家健康</p>
+							<p class="spec_money">9万元</p>
+						</li>
+						<li class="spec_item box_shadow" >
+							<a class="spec_img" >
+								<img src="images/hardware6.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >阿巴斯</a>
+							</h3>
+							<p class="spec_desc">手机远程遥控开关</p>
+							<p class="spec_money">5万元</p>
+						</li>
+						<li class="spec_item box_shadow" >
+							<a class="spec_img" >
+								<img src="images/hardware7.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >迈凯轮</a>
+							</h3>
+							<p class="spec_desc">边录边拍，随时分享</p>
+							<p class="spec_money">3万元</p>
+						</li>
+						<li class="spec_item box_shadow" >
+							<a class="spec_img" >
+								<img src="images/hardware8.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >特威尔</a>
+							</h3>
+							<p class="spec_desc">触摸式操作，给卧室1600万种颜色</p>
+							<p class="spec_money">24万元</p>
+						</li>
+					</ul>
+				</div>
+				<div class="match comWidth2">
+					<div class="clearfix spec_top">
+						<h2 class="spec_type_title fl">搭配</h2>
+						<ul class="spec_type_nav fr">
+							<li>
+								<a href="#" class="cur">热门</a>
+							</li>
+							<li>
+								<a href="#">轮胎配件</a>
+							</li>
+							<li>
+								<a href="#">电车电源</a>
+							</li>
+							<li>
+								<a href="#">法波德</a>
+							</li>
+						</ul>
+					</div>
+					<div class="clearfix"></div>
+					<div class="match_main  fl">
+						<a href="#">
+							<img src="images/match_hot1.jpg" class="box_shadow" />
+						</a>
+						<a href="">
+							<img src="images/match_hot6.jpg" class="box_shadow" />
+						</a>
+					</div>
+					<ul class="match_list fl">
+						<li class="spec_item box_shadow" >
+							<a class="spec_img " >
+								<img src="images/match_hot2.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >双龙</a>
+							</h3>
+							<p class="spec_money">9万元</p>
+							<p class="spec_desc">4598人评价</p>
+						</li>
+						<li class="spec_item box_shadow" >
+							<a class="spec_img" >
+								<img src="images/match_hot3.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >土星</a>
+							</h3>
+							<p class="spec_money">4万元</p>
+							<p class="spec_desc">1.1万人评价</p>
+						</li>
+						<li class="spec_item box_shadow" >
+							<a class="spec_img" >
+								<img src="images/match_hot4.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >博通</a>
+							</h3>
+							<p class="spec_money">4万元</p>
+							<p class="spec_desc">1.1万人评价</p>
+						</li>
+						<li class="spec_item box_shadow" >
+							<a class="spec_img" >
+								<img src="images/match_hot5.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >金杯</a>
+							</h3>
+							<p class="spec_money">
+								79元
+								<span class="del">9万元</span>
+							</p>
+							<p class="spec_desc">7356人评价</p>
+						</li>
+						<li class="spec_item mr_0 box_shadow" >
+							<a class="spec_img" >
+								<img src="images/match_hot7.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >五十铃</a>
+							</h3>
+							<p class="spec_money">4万元</p>
+							<p class="spec_desc">2.7万人评价</p>
+						</li>
+						<li class="spec_item box_shadow">
+							<a class="spec_img" >
+								<img src="images/match_hot8.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >德.托马索</a>
+							</h3>
+							<p class="spec_money">
+								17万元
+								<span class="del">24万元</span>
+							</p>
+							<p class="spec_desc">2.7万人评价</p>
+						</li>
+						<li class="spec_item box_shadow" >
+							<a class="spec_img" >
+								<img src="images/match_hot9.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >奥兹莫比尔</a>
+							</h3>
+							<p class="spec_money">
+								39.9元
+								<span class="del">4万元</span>
+							</p>
+							<p class="spec_desc">6133人评价</p>
+						</li>
+						<li class="spec_item mr_0 small_match_spec" >
+							<div class="small_spec1 box_shadow">
+								<p class="small_title">利兰</p>
+								<p class="small_money">12万元</p>
+								<img src="images/match_hot_small1.jpg"></div>
+							<div class="small_spec2 box_shadow">
+								<p class="small_title">浏览更多</p>
+								<p class="small_money">黄海</p>
+								<img src="images/icon/more.jpg" class="more"></div>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+				<div class="accessories comWidth2">
+					<div class="clearfix spec_top">
+						<h2 class="spec_type_title fl">配件</h2>
+						<ul class="spec_type_nav fr">
+							<li>
+								<a href="#" class="cur">热门</a>
+							</li>
+							<li>
+								<a href="#">保护套</a>
+							</li>
+							<li>
+								<a href="#">后盖</a>
+							</li>
+							<li>
+								<a href="#">除尘</a>
+							</li>
+							<li>
+								<a href="#">其他配件</a>
+							</li>
+						</ul>
+					</div>
+					<div class="match_main fl">
+						<a href="">
+							<img src="images/accessory1.jpg" class="box_shadow" />
+						</a>
+						<a href="">
+							<img src="images/accessory6.jpg" class="box_shadow" />
+						</a>
+					</div>
+					<ul class="match_list fl">
+						<li class="spec_item box_shadow" >
+							<a class="spec_img" >
+								<img src="images/accessory2.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >天马</a>
+							</h3>
+							<p class="spec_money">9万元</p>
+							<p class="spec_desc">4598人评价</p>
+						</li>
+						<li class="spec_item box_shadow" >
+							<a class="spec_img" >
+								<img src="images/accessory3.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >大发</a>
+							</h3>
+							<p class="spec_money">4万元</p>
+							<p class="spec_desc">1.1万人评价</p>
+						</li>
+						<li class="spec_item box_shadow" >
+							<a class="spec_img" >
+								<img src="images/accessory4.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >大通</a>
+							</h3>
+							<p class="spec_money">4万元</p>
+							<p class="spec_desc">1.1万人评价</p>
+						</li>
+						<li class="spec_item box_shadow" >
+							<a class="spec_img" >
+								<img src="images/accessory5.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >普利茅斯 炫彩版</a>
+							</h3>
+							<p class="spec_money">
+								7万元
+								<span class="del">9万元</span>
+							</p>
+							<p class="spec_desc">7356人评价</p>
+						</li>
+						<li class="spec_item mr_0 box_shadow" >
+							<a class="spec_img" >
+								<img src="images/accessory7.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >乔西亚 </a>
+							</h3>
+							<p class="spec_money">4万元</p>
+							<p class="spec_desc">2.7万人评价</p>
+						</li>
+						<li class="spec_item box_shadow">
+							<a class="spec_img" >
+								<img src="images/accessory8.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >华泰</a>
+							</h3>
+							<p class="spec_money">
+								17万元
+								<span class="del">24万元</span>
+							</p>
+							<p class="spec_desc">2.7万人评价</p>
+						</li>
+						<li class="spec_item box_shadow" >
+							<a class="spec_img" >
+								<img src="images/accessory9.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >双环</a>
+							</h3>
+							<p class="spec_money">
+								3万元
+								<span class="del">4万元</span>
+							</p>
+							<p class="spec_desc">6133人评价</p>
+						</li>
+						<li class="spec_item mr_0 small_match_spec" >
+							<div class="small_spec1 box_shadow">
+								<p class="small_title">乔西亚</p>
+								<p class="small_money">17万元</p>
+								<img src="images/accessory10.jpg"></div>
+							<div class="small_spec2 box_shadow">
+								<p class="small_title">浏览更多</p>
+								<p class="small_money">哈飞</p>
+								<img src="images/icon/more.jpg" class="more"></div>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+				<div class="around comWidth2">
+					<div class="clearfix spec_top">
+						<h2 class="spec_type_title fl">周边</h2>
+						<ul class="spec_type_nav fr">
+							<li>
+								<a href="#" class="cur">热门</a>
+							</li>
+							<li>
+								<a href="#">配件</a>
+							</li>
+							<li>
+								<a href="#">轮子</a>
+							</li>
+							<li>
+								<a href="#">生活周边</a>
+							</li>
+							<li>
+								<a href="#">坐垫</a>
+							</li>
+						</ul>
+					</div>
+					<div class="match_main fl">
+						<a href="#" >
+							<img src="images/match_hot1.jpg" class="box_shadow" />
+						</a>
+						<a href="#" >
+							<img src="images/match_hot6.jpg" class="box_shadow"/>
+						</a>
+					</div>
+					<ul class="match_list fl">
+						<li class="spec_item box_shadow" >
+							<a class="spec_img" >
+								<img src="images/match_hot2.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >北汽汽车</a>
+							</h3>
+							<p class="spec_money">9万元</p>
+							<p class="spec_desc">4598人评价</p>
+						</li>
+						<li class="spec_item box_shadow" >
+							<a class="spec_img" >
+								<img src="images/match_hot3.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >跃进</a>
+							</h3>
+							<p class="spec_money">4万元</p>
+							<p class="spec_desc">1.1万人评价</p>
+						</li>
+						<li class="spec_item box_shadow" >
+							<a class="spec_img" >
+								<img src="images/match_hot4.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >双环</a>
+							</h3>
+							<p class="spec_money">4万元</p>
+							<p class="spec_desc">1.1万人评价</p>
+						</li>
+						<li class="spec_item box_shadow" >
+							<a class="spec_img" >
+								<img src="images/match_hot5.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >美鹿 炫彩版</a>
+							</h3>
+							<p class="spec_money">
+								7万元
+								<span class="del">9万元</span>
+							</p>
+							<p class="spec_desc">7356人评价</p>
+						</li>
+						<li class="spec_item mr_0 box_shadow" >
+							<a class="spec_img" >
+								<img src="images/match_hot7.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >开瑞 U版</a>
+							</h3>
+							<p class="spec_money">4万元</p>
+							<p class="spec_desc">2.7万人评价</p>
+						</li>
+						<li class="spec_item box_shadow">
+							<a class="spec_img" >
+								<img src="images/match_hot8.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >福田</a>
+							</h3>
+							<p class="spec_money">
+								17万元
+								<span class="del">24万元</span>
+							</p>
+							<p class="spec_desc">2.7万人评价</p>
+						</li>
+						<li class="spec_item box_shadow" >
+							<a class="spec_img" >
+								<img src="images/match_hot9.jpg" />
+							</a>
+							<h3 class="spec_title">
+								<a href="#" >北京轻型汽</a>
+							</h3>
+							<p class="spec_money">
+								3万元
+								<span class="del">4万元</span>
+							</p>
+							<p class="spec_desc">6133人评价</p>
+						</li>
+						<li class="spec_item mr_0 small_match_spec" >
+							<div class="small_spec1 box_shadow">
+								<p class="small_title">精灵</p>
+								<p class="small_money">17万元</p>
+								<img src="images/match_hot_small1.jpg"></div>
+							<div class="small_spec2 box_shadow">
+								<p class="small_title">浏览更多</p>
+								<p class="small_money">福迪</p>
+								<img src="images/icon/more.jpg" class="more"></div>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+				<div class="comWidth clearfix">
+					<div class="recommend  ">
+						<div class="spec_top">
+							<h2 class="spec_type_title fl">为你推荐</h2>
+							<div class="spec_left_right fl">
+								<a class="img1 fl" >
+									<img src="images/icon/left_b_2.png" />
+								</a>
+								<a class="img2 fl">
+									<img src="images/icon/right_b_1.png" />
+								</a>
+							</div>
+						</div>
+						<ul class="recommend_spec_list">
+							<li class="spec_item" >
+								<a class="spec_img" >
+									<img src="images/star1.jpg" />
+								</a>
+								<h3 class="spec_title">
+									<a href="#" >莫斯科人牌</a>
+								</h3>
+								<p class="spec_desc">搭载 NVIDIA </p>
+								<p class="spec_money">12万元</p>
+							</li>
+							<li class="spec_item">
+								<a class="spec_img" >
+									<img src="images/star1.jpg" />
+								</a>
+								<h3 class="spec_title">
+									<a href="#" >威旺</a>
+								</h3>
+								<p class="spec_desc">搭载 NVIDIA Tegra K1 平板</p>
+								<p class="spec_money">12万元</p>
+							</li>
+							<li class="spec_item">
+								<a class="spec_img" >
+									<img src="images/star4.jpg" />
+								</a>
+								<h3 class="spec_title">
+									<a href="#" >五菱</a>
+								</h3>
+								<p class="spec_desc">搭载 NVIDIA Tegra K1 平板</p>
+								<p class="spec_money">12万元</p>
+							</li>
+							<li class="spec_item">
+								<a class="spec_img" >
+									<img src="images/star4.jpg" />
+								</a>
+								<h3 class="spec_title">
+									<a href="#">吉奥</a>
+								</h3>
+								<p class="spec_desc">搭载 NVIDIA Tegra K1 平板</p>
+								<p class="spec_money">12万元</p>
+							</li>
+							<li class="spec_item">
+								<a class="spec_img" >
+									<img src="images/star5.jpg" />
+								</a>
+								<h3 class="spec_title">
+									<a href="#">启辰</a>
+								</h3>
+								<p class="spec_desc">搭载 NVIDIA Tegra K1 平板</p>
+								<p class="spec_money">12万元</p>
+							</li>
+							<li class="spec_item">
+								<a class="spec_img" >
+									<img src="images/star6.jpg" />
+								</a>
+								<h3 class="spec_title">
+									<a href="#">边赤</a>
+								</h3>
+								<p class="spec_desc">搭载 NVIDIA Tegra K1 平板</p>
+								<p class="spec_money">12万元</p>
+							</li>
+							<li class="spec_item">
+								<a class="spec_img" >
+									<img src="images/star7.jpg" />
+								</a>
+								<h3 class="spec_title">
+									<a href="#">光冈</a>
+								</h3>
+								<p class="spec_desc">搭载 NVIDIA Tegra K1 平板</p>
+								<p class="spec_money">12万元</p>
+							</li>
+							<li class="spec_item">
+								<a class="spec_img" >
+									<img src="images/star8.jpg" />
+								</a>
+								<h3 class="spec_title">
+									<a href="#">休列兹</a>
+								</h3>
+								<p class="spec_desc">搭载 NVIDIA Tegra K1 平板</p>
+								<p class="spec_money">12万元</p>
+							</li>
+							<li class="spec_item">
+								<a class="spec_img" >
+									<img src="images/star8.jpg" />
+								</a>
+								<h3 class="spec_title">
+									<a href="#">庆铃</a>
+								</h3>
+								<p class="spec_desc">搭载 NVIDIA Tegra K1 平板</p>
+								<p class="spec_money">12万元</p>
+							</li>
+							<li class="spec_item">
+								<a class="spec_img" >
+									<img src="images/star8.jpg" />
+								</a>
+								<h3 class="spec_title">
+									<a href="#">波罗乃兹</a>
+								</h3>
+								<p class="spec_desc">搭载 NVIDIA Tegra K1 平板</p>
+								<p class="spec_money">12万元</p>
+							</li>
+							<li class="spec_item">
+								<a class="spec_img" >
+									<img src="images/star8.jpg" />
+								</a>
+								<h3 class="spec_title">
+									<a href="#">海格</a>
+								</h3>
+								<p class="spec_desc">搭载 NVIDIA Tegra K1 平板</p>
+								<p class="spec_money">12万元</p>
+							</li>
+							<li class="spec_item">
+								<a class="spec_img" >
+									<img src="images/star8.jpg" />
+								</a>
+								<h3 class="spec_title">
+									<a href="#">江南</a>
+								</h3>
+								<p class="spec_desc">搭载 NVIDIA Tegra K1 平板</p>
+								<p class="spec_money">12万元</p>
+							</li>
+							<li class="spec_item">
+								<a class="spec_img" >
+									<img src="images/star8.jpg" />
+								</a>
+								<h3 class="spec_title">
+									<a href="#">拉达</a>
+								</h3>
+								<p class="spec_desc">搭载 NVIDIA Tegra K1 平板</p>
+								<p class="spec_money">12万元</p>
+							</li>
+							<li class="spec_item">
+								<a class="spec_img" >
+									<img src="images/star8.jpg" />
+								</a>
+								<h3 class="spec_title">
+									<a href="#">拉贡达</a>
+								</h3>
+								<p class="spec_desc">搭载 NVIDIA Tegra K1 平板</p>
+								<p class="spec_money">12万元</p>
+							</li>
+							<li class="spec_item">
+								<a class="spec_img" >
+									<img src="images/star8.jpg" />
+								</a>
+								<h3 class="spec_title">
+									<a href="#">塞恩</a>
+								</h3>
+								<p class="spec_desc">搭载 NVIDIA Tegra K1 平板</p>
+								<p class="spec_money">12万元</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<div id="review" class="clearfix comWidth2">
+				<div class="clearfix spec_top">
+					<h2 class="spec_type_title fl">热评产品</h2>
+				</div>
+				<ul class="review_spec">
+					<li class="box_shadow">
+						<a href="#" >
+							<img src="images/hot_comment1.jpg" class="review_spec_img"/>
+						</a>
+						<a href="#">
+							<p class="review_spec_desc">当我收到后第一眼看到它的时候 让我回想起童年的美好时...</p>
+						</a>
+						<span class="review_spec_comment">来自于 110008580 的评价</span>
+						<div class="review_spec_info">
+							<a href="#" class="review_spec_title">拉贡达</a>
+							<span>|</span>
+							<span class="review_spec_price">19万元</span>
+						</div>
+					</li>
+					<li class="box_shadow">
+						<a href="#" >
+							<img src="images/hot_comment2.jpg" class="review_spec_img"/>
+						</a>
+						<a href="#">
+							<p class="review_spec_desc">超值正品，再也不会担心头那里时间久了坏掉，感觉升级版...</p>
+						</a>
+						<span class="review_spec_comment">来自于 香草忘忧 的评价</span>
+						<div class="review_spec_info">
+							<a href="#" class="review_spec_title">塞恩</a>
+							<span>|</span>
+							<span class="review_spec_price">49万元</span>
+						</div>
+					</li>
+					<li class="box_shadow">
+						<a href="#" >
+							<img src="images/hot_comment3.jpg" class="review_spec_img"/>
+						</a>
+						<a href="#">
+							<p class="review_spec_desc">这车给我的感觉太震撼了，完全超出了我的意料之外，...</p>
+						</a>
+						<span class="review_spec_comment">来自于 dp588 的评价</span>
+						<div class="review_spec_info">
+							<a href="#" class="review_spec_title">休列兹</a>
+							<span>|</span>
+							<span class="review_spec_price">8万元</span>
+						</div>
+					</li>
+					<li class="active box_shadow">
+						<a href="#" >
+							<img src="images/hot_comment4.jpg" class="review_spec_img"/>
+						</a>
+						<a href="#">
+							<p class="review_spec_desc">很好用，也很实用啊，特别是PPT功能，很好很强大</p>
+						</a>
+						<span class="review_spec_comment">来自于 抽支烟吐圈圈 的评价</span>
+						<div class="review_spec_info">
+							<a href="#" class="review_spec_title">Joss</a>
+							<span>|</span>
+							<span class="review_spec_price">19.9元</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+			<div class="content comWidth2">
+				<div class="clearfix spec_top">
+					<h2 class="spec_type_title fl">内容</h2>
+				</div>
+				<div class="clearfix"></div>
+				<ul class="content_spec">
+					<li class="spec_top_border1 box_shadow content_spec_wrap">
+						<img src="images/icon/content_left.png" class="content_left" />
+						<img src="images/icon/content_right.png" class="content_right" />
+						<h3 class="content_type">图书</h3>
+						<ul class="content_spec_list">
+							<li>
+								<a href="#"  class="content_spec">
+									<h2 class="content_spec_title">老板不在家，熊猫君又放价</h2>
+									<p class="content_spec_desc">上百本图书，统一价格。 再也不用掰着手算价了～</p>
+									<p class="content_spec_price">均价2.99元</p>
+									<img src="images/content_book_1.jpg" />
+								</a>
+							</li>
+							<li>
+								<a href="#"  class="content_spec">
+									<h2 class="content_spec_title">老板不在家，熊猫君又放价</h2>
+									<p class="content_spec_desc">上百本图书，统一价格。 再也不用掰着手算价了～</p>
+									<p class="content_spec_price">均价2.99元</p>
+									<img src="images/content_book_1.jpg" />
+								</a>
+							</li>
+							<li>
+								<a href="#"  class="content_spec">
+									<h2 class="content_spec_title">老板不在家，熊猫君又放价</h2>
+									<p class="content_spec_desc">上百本图书，统一价格。 再也不用掰着手算价了～</p>
+									<p class="content_spec_price">均价2.99元</p>
+									<img src="images/content_book_1.jpg" />
+								</a>
+							</li>
+							<li>
+								<a href="#"  class="content_spec">
+									<h2 class="content_spec_title">老板不在家，熊猫君又放价</h2>
+									<p class="content_spec_desc">上百本图书，统一价格。 再也不用掰着手算价了～</p>
+									<p class="content_spec_price">均价2.99元</p>
+									<img src="images/content_book_1.jpg" />
+								</a>
+							</li>
+						</ul>
+						<ul class="content_page">
+							<li>
+								<span href="#" class="active"></span>
+							</li>
+							<li>
+								<span></span>
+							</li>
+							<li>
+								<span></span>
+							</li>
+							<li>
+								<span></span>
+							</li>
+						</ul>
+					</li>
+
+					<li class="spec_top_border1 box_shadow content_spec_wrap">
+						<img src="images/icon/content_left.png" class="content_left" />
+						<img src="images/icon/content_right.png" class="content_right" />
+						<h3 class="content_type">主题</h3>
+						<ul class="content_spec_list">
+							<li>
+								<a href="#"  class="content_spec">
+									<h2 class="content_spec_title">前任攻略2备胎反击战</h2>
+									<p class="content_spec_desc">《前任攻略2备胎反击战》官方主题上线啦~勇敢转正，脱胎换骨！</p>
+									<p class="content_spec_price">免费</p>
+									<img src="images/content_theme_1.jpg" />
+								</a>
+							</li>
+							<li>
+								<a href="#"  class="content_spec">
+									<h2 class="content_spec_title">前任攻略2备胎反击战</h2>
+									<p class="content_spec_desc">《前任攻略2备胎反击战》官方主题上线啦~勇敢转正，脱胎换骨！</p>
+									<p class="content_spec_price">免费</p>
+									<img src="images/content_theme_1.jpg" />
+								</a>
+							</li>
+							<li>
+								<a href="#"  class="content_spec">
+									<h2 class="content_spec_title">前任攻略2备胎反击战</h2>
+									<p class="content_spec_desc">《前任攻略2备胎反击战》官方主题上线啦~勇敢转正，脱胎换骨！</p>
+									<p class="content_spec_price">免费</p>
+									<img src="images/content_theme_1.jpg" />
+								</a>
+							</li>
+							<li>
+								<a href="#"  class="content_spec">
+									<h2 class="content_spec_title">前任攻略2备胎反击战</h2>
+									<p class="content_spec_desc">《前任攻略2备胎反击战》官方主题上线啦~勇敢转正，脱胎换骨！</p>
+									<p class="content_spec_price">免费</p>
+									<img src="images/content_theme_1.jpg" />
+								</a>
+							</li>
+						</ul>
+						<ul class="content_page">
+							<li>
+								<span href="#" class="active"></span>
+							</li>
+							<li>
+								<span></span>
+							</li>
+							<li>
+								<span></span>
+							</li>
+							<li>
+								<span></span>
+							</li>
+						</ul>
+					</li>
+					<li class="spec_top_border1 box_shadow content_spec_wrap">
+						<img src="images/icon/content_left.png" class="content_left" />
+						<img src="images/icon/content_right.png" class="content_right" />
+						<h3 class="content_type">游戏</h3>
+						<ul class="content_spec_list">
+							<li>
+								<a href="#"  class="content_spec">
+									<h2 class="content_spec_title">波罗乃兹</h2>
+									<p class="content_spec_desc">用电脑全程导航</p>
+									<p class="content_spec_price">免费</p>
+									<img src="images/content_game_1.png" />
+								</a>
+							</li>
+							<li>
+								<a href="#"  class="content_spec">
+									<h2 class="content_spec_title">江南</h2>
+									<p class="content_spec_desc">电脑全程导航</p>
+									<p class="content_spec_price">免费</p>
+									<img src="images/content_game_1.png" />
+								</a>
+							</li>
+							<li>
+								<a href="#"  class="content_spec">
+									<h2 class="content_spec_title">米长丰</h2>
+									<p class="content_spec_desc">在电脑导航</p>
+									<p class="content_spec_price">免费</p>
+									<img src="images/content_game_1.png" />
+								</a>
+							</li>
+							<li>
+								<a href="#"  class="content_spec">
+									<h2 class="content_spec_title">戈兹</h2>
+									<p class="content_spec_desc">在电脑全面导航</p>
+									<p class="content_spec_price">免费</p>
+									<img src="images/content_game_1.png" />
+								</a>
+							</li>
+						</ul>
+						<ul class="content_page">
+							<li>
+								<span href="#" class="active"></span>
+							</li>
+							<li>
+								<span></span>
+							</li>
+							<li>
+								<span></span>
+							</li>
+							<li>
+								<span></span>
+							</li>
+						</ul>
+					</li>
+					<li class="spec_top_border1 mr_0 box_shadow content_spec_wrap">
+						<img src="images/icon/content_left.png" class="content_left" />
+						<img src="images/icon/content_right.png" class="content_right" />
+						<h3 class="content_type">应用</h3>
+						<ul class="content_spec_list">
+							<li>
+								<a href="#"  class="content_spec">
+									<h2 class="content_spec_title">汽车应用</h2>
+									<p class="content_spec_desc">重汽出品 必属精品</p>
+									<p class="content_spec_price">免费</p>
+									<img src="images/content_apply_1.png" />
+								</a>
+							</li>
+							<li>
+								<a href="#"  class="content_spec">
+									<h2 class="content_spec_title">汽车应用</h2>
+									<p class="content_spec_desc">重汽出品 必属精品</p>
+									<p class="content_spec_price">免费</p>
+									<img src="images/content_apply_1.png" />
+								</a>
+							</li>
+							<li>
+								<a href="#"  class="content_spec">
+									<h2 class="content_spec_title">汽车应用</h2>
+									<p class="content_spec_desc">重汽出品 必属精品</p>
+									<p class="content_spec_price">免费</p>
+									<img src="images/content_apply_1.png" />
+								</a>
+							</li>
+							<li>
+								<a href="#"  class="content_spec">
+									<h2 class="content_spec_title">汽车应用</h2>
+									<p class="content_spec_desc">重汽出品 必属精品</p>
+									<p class="content_spec_price">免费</p>
+									<img src="images/content_apply_1.png" />
+								</a>
+							</li>
+						</ul>
+						<ul class="content_page">
+							<li>
+								<span href="#" class="active"></span>
+							</li>
+							<li>
+								<span></span>
+							</li>
+							<li>
+								<span></span>
+							</li>
+							<li>
+								<span></span>
+							</li>
+						</ul>
+					</li>
+				</ul>
+
+			</div>
+			<div class="clearfix"></div>
+			<div id="video" class="comWidth2 clearfix">
+				<div class="clearfix spec_top">
+					<h2 class="spec_type_title fl">视频</h2>
+				</div>
+				<ul class="video_spec">
+					<li class="box_shadow">
+						<a href="#">
+							<img src="images/video1.jpg" class="video_spec_img"/>
+						</a>
+						<h4 class="video_spec_title">10月19日次世代新品发布会</h4>
+						<p class="review_spec_desc">炫酷新玩具Ninebot平衡车</p>
+					</li>
+					<li class="box_shadow">
+						<a href="#">
+							<img src="images/video2.jpg" class="video_spec_img"/>
+						</a>
+						<h4 class="video_spec_title">10月19日次世代新品发布会</h4>
+						<p class="review_spec_desc">炫酷新玩具Ninebot平衡车</p>
+					</li>
+					<li class="box_shadow">
+						<a href="#">
+							<img src="images/video3.jpg" class="video_spec_img"/>
+						</a>
+						<h4 class="video_spec_title">10月19日次世代新品发布会</h4>
+						<p class="review_spec_desc">炫酷新玩具Ninebot平衡车</p>
+					</li>
+					<li class="mr_0 box_shadow">
+						<a href="#">
+							<img src="images/video1.jpg" class="video_spec_img"/>
+						</a>
+						<h4 class="video_spec_title">10月19日次世代新品发布会</h4>
+						<p class="review_spec_desc">炫酷新玩具Ninebot平衡车</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<div class="footer_top comWidth">
+		<div class="footer_top_service">
+			<ul>
+				<li>
+					<a href="#" class="footer_service1">1小时快修服务</a>
+				</li>
+				<li>
+					<a href="#" class="footer_service2">7天无理由退货</a>
+				</li>
+				<li>
+					<a href="#" class="footer_service3">15天免费换货</a>
+				</li>
+				<li>
+					<a href="#" class="footer_service4">满150元包邮</a>
+				</li>
+				<li>
+					<a href="#" class="footer_service5">520余家售后网点</a>
+				</li>
+			</ul>
+		</div>
+		<div class="footer_top_links comWidth">
+			<div class="fl">
+				<div class="links_service fl">
+					<h5 class="links_service_title">帮助中心</h5>
+					<ul class="links_service_content">
+						<li>
+							<a href="#">购物指南</a>
+						</li>
+						<li>
+							<a href="#">支付方式</a>
+						</li>
+						<li>
+							<a href="#">配送方式</a>
+						</li>
+					</ul>
+				</div>
+				<div class="links_service fl">
+					<h5 class="links_service_title">服务支持</h5>
+					<ul class="links_service_content">
+						<li>
+							<a href="#">售后政策</a>
+						</li>
+						<li>
+							<a href="#">自助服务</a>
+						</li>
+						<li>
+							<a href="#">相关下载</a>
+						</li>
+					</ul>
+				</div>
+				<div class="links_service fl">
+					<h5 class="links_service_title">汽车之家</h5>
+					<ul class="links_service_content">
+						<li>
+							<a href="#">汽车之家</a>
+						</li>
+						<li>
+							<a href="#">服务网点</a>
+						</li>
+						<li>
+							<a href="#">预约亲临到店服务</a>
+						</li>
+					</ul>
+				</div>
+				<div class="links_service fl">
+					<h5 class="links_service_title">关于重汽</h5>
+					<ul class="links_service_content">
+						<li>
+							<a href="#">了解重汽</a>
+						</li>
+						<li>
+							<a href="#">加入重汽</a>
+						</li>
+						<li>
+							<a href="#">联系我们</a>
+						</li>
+					</ul>
+				</div>
+				<div class="links_service fl">
+					<h5 class="links_service_title">关注我们</h5>
+					<ul class="links_service_content">
+						<li>
+							<a href="#">新浪微博</a>
+						</li>
+						<li>
+							<a href="#">重汽部落</a>
+						</li>
+						<li>
+							<a href="#">官方微信</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+			<div class="links_tel fr">
+				<h3 class="links_tel_num">400-100-5678</h3>
+				<p class="links_tel_info">周一至周日 8:00-18:00</p>
+				<p class="links_tel_info">（仅收市话费）</p>
+				<img src="images/service.png" class="links_tel_img" />
+			</div>
+		</div>
+	</div>
+	<div class="footer_bottom">
+		<div class="footer_bottom_container comWidth">
+			<div class="footer_bottom_img fl">
+				<img src="images/icon/logo.png" />
+			</div>
+			<div class="footer_bottom_info fl">
+				<ul class="footer_bottom_nav">
+					<li>
+						<a href="#">重汽网</a>
+					</li>
+					<li>
+						<span>|</span>
+					</li>
+					<li>
+						<a href="#">Mii</a>
+					</li>
+					<li>
+						<span>|</span>
+					</li>
+					<li>
+						<a href="#">汽聊</a>
+					</li>
+					<li>
+						<span>|</span>
+					</li>
+					<li>
+						<a href="#">多看书城</a>
+					</li>
+					<li>
+						<span>|</span>
+					</li>
+					<li>
+						<a href="#">汽车导航器</a>
+					</li>
+					<li>
+						<span>|</span>
+					</li>
+					<li>
+						<a href="#">重汽后院</a>
+					</li>
+					<li>
+						<span>|</span>
+					</li>
+					<li>
+						<a href="#">重汽天猫店</a>
+					</li>
+					<li>
+						<span>|</span>
+					</li>
+					<li>
+						<a href="#">重汽网上直营店</a>
+					</li>
+					<li>
+						<span>|</span>
+					</li>
+					<li>
+						<a href="#">重汽网盟</a>
+					</li>
+					<li>
+						<span>|</span>
+					</li>
+					<li>
+						<a href="#">问题反馈</a>
+					</li>
+					<li>
+						<span>|</span>
+					</li>
+					<li>
+						<a href="#">Select Region</a>
+					</li>
+					<li>
+						<span>|</span>
+					</li>
+				</ul>
+				<p class="footer_bottom_info">
+					©mi.com 京ICP证110507号 京ICP备10046444号 京公网安备1101080212535号 京网文[2014]0059-0009号
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
